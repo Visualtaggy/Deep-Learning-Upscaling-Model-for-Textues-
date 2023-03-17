@@ -10,6 +10,7 @@ model_path = 'models/UbisoftGame-Upcaling_x4.pth'
 device = torch.device('cuda')
 #device = torch.device('cpu')
 
+
 test_img_folder = 'LR/*'
 
 model = arch.RRDBNet(3, 3, 64, 23, gc=32)
